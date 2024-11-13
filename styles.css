@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    background-color: #034951;
+    font-family: "Space Grotesk", sans-serif;
+}
+#nav{
+    width: 100%;
+    display: flex;
+    background-color: #e9ecef;
+    justify-content: right;
+    height: 80px;
+    padding-right: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#nav a{
+    width: 110px;
+    text-align: center;
+    color: #05333f;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-right: 20px;
+    font-size: 1.3em;
+}
+
+#nav a:hover{
+    background-color: #05333f;
+    color: aliceblue;
+    transition: 1s;
+}
+#nav img{
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.home{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-image: url(https://st4.depositphotos.com/1019178/20282/i/450/depositphotos_202821714-stock-photo-abstract-white-modern-background-of.jpg);
+    height: 200px;
+    margin-top: 100px;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgb(72, 69, 69);
+}
+.home h1{
+    text-align: center;
+    padding-top: 80px;
+    color: #05333f;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.home-content{
+    display: flex;
+    width: 900px;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    padding: 30px;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    padding: 20px;
+}
+.box img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+.box-text{
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d5e6ebb6;
+    font-size: 3em;
+    color: #032f4b;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+}
+.box:hover .box-text{
+    visibility: visible;
+    transition: 1s;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-color: #e9ecef;
+    text-align: center;
+    color: #05333f;
+    font-weight: bold;
+    font-size: 3em;
+    border-top: 20px double rgb(3, 54, 68);
+    border-bottom: 20px double rgb(3, 49, 63);
+}
+.form{
+    width: 600px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border: 40px;
+    background-color: #e9ecef;
+    margin-bottom: 100px;
+}
+input[type="text"],
+input[type="email"],
+select{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    color: #05333f;
+    font-weight: bold;
+}
+textarea{
+    width: 100%;
+    height: 130px;
+    margin-bottom: 20px;
+    color: #05333f;
+    font-weight: bold;
+}
+#submit{
+    background-color: rgb(19, 155, 19);
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#reset{
+    background-color: rgb(217, 21, 21);
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.find-job{
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border: 40px;
+    background-color: #e9ecef;
+    margin-bottom: 100px;
+}
+.job{
+    display: flex;
+    gap: 60px;
+}
+.job-content{
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.job-content img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.text{
+    width: 100%;
+    background-color: #d38014;
+    text-align: center;
+    color: #0c0c0c;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 20px;
+}
+.text a{
+    background-color: #0c0c0c;
+    color: rgb(242, 240, 238);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.text a:hover{
+    background-color: #e9ecef;
+    color: #0c0c0c;
+    transition: 1s;
+}
